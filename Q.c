@@ -57,18 +57,18 @@ void display_queue(int fr , int en , int queue[])
 	int i;
 	if (!(fr > en))
 	{
-     printf("The contents of the queue is :")
+  	   printf("The contents of the queue is :")
 	
-	 for(i=fr;i<=en;i++)
-	 {
-	 	printf ("%d ",queue[i]);
-	 }
-	return;
-	}
-	else 
-	{
-		printf ("\n Queue is empty , no elements to display. \n");
+		 for(i=fr;i<=en;i++)
+		 {
+			printf ("%d ",queue[i]);
+		 }
 		return;
+		}
+		else 
+		{
+			printf ("\n Queue is empty , no elements to display. \n");
+			return;
 	}
 }
 
