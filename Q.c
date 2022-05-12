@@ -19,11 +19,11 @@ int main()
 		switch (ch)
 		{
 			case 1 : 
-            if (en == (n-1))
-            {
-              printf("Queue is full. \n");
-			  break;
-            }
+           		 if (en == (n-1))
+       			     {
+        			      printf("Queue is full. \n");
+					  break;
+     			      }
 			printf("Enter the element to be inserted : \n");
 			scanf("%d",&ele);
 			insert_ele(ele , &en, queue);
